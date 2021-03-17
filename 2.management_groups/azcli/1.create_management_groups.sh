@@ -2,12 +2,8 @@
 # az login
 # az account set --subscription xxxxxxxxxxxx
 
-# Management group IDs cannot be changed after creation, they cannot end in a period, and can only contain ASCII letters, numbers, and the following characters: _-().
-# You can only delete management groups when all the child management groups and subscriptions have been moved or deleted
-
-
 az deployment sub create \
-  --name demoMGDeployment \
+  --name root-mg-deployment \
   --location EastUS \
   --template-file ./templates/root_mgmt_group.json
 
