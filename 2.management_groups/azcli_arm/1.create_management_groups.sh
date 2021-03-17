@@ -1,4 +1,4 @@
-# Assumes you have alread ran az login and also set the subscription context, ex:
+# Assumes you have already ran az login and also set the subscription context, ex:
 # az login
 # az account set --subscription xxxxxxxxxxxx
 
